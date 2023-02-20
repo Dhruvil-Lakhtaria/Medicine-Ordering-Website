@@ -26,7 +26,7 @@
     "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://Dhruvil-Lakhtaria.github.io/Medicine-Ordering-Website",
+  "homepage": "https://Dhruvil-Lakhtaria.github.io/Medicine-Ordering-Website/#",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
