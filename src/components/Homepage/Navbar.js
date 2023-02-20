@@ -22,19 +22,19 @@ const Navbar = () => {
         </div>
         <ul className="nav">
           <li className="nav-item nav-h">
-            <a href="/Medicine-Ordering-Website">Home</a>
+            <a href="/">Home</a>
           </li>
           <li className="nav-item nav-a">
-            <a href="/Medicine-Ordering-Website/appointment">Appointments</a>
+            <a href="/appointment">Appointments</a>
           </li>
           <li className="nav-item nav-m">
-            <a href="/Medicine-Ordering-Website/mymeds">MyMeds</a>
+            <a href="/mymeds">MyMeds</a>
           </li>
           <li className="nav-item nav-s">
-            <a href="/Medicine-Ordering-Website/snooze">Snooze</a>
+            <a href="/snooze">Snooze</a>
           </li>
           <li className="nav-item nav-r">
-            <a href="/Medicine-Ordering-Website/auth">Register</a>
+            <a href="/auth">Register</a>
           </li>
         </ul>
       </div>

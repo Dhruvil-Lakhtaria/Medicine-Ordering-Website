@@ -8,7 +8,10 @@ import AppointmentPage from "./components/AppointmentPage/AppointmentPage";
 import MyMedsPage from "./components/MyMedsPage/MyMeds";
 import LoginForm from "./components/RegisterPage/LoginForm";
 import Navbar from "./components/Homepage/Navbar";
-import { BrowserRouter as Router, HashRouter, Route, Routes } from "react-router-dom";
+import {
+  Route,
+  Routes,
+} from "react-router-dom";
 
 function App() {
   // const [userId,setUserId] = useState("");
@@ -46,21 +49,18 @@ function App() {
     //   });
   };
   return (
-    <HashRouter>
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/Medicine-Ordering-Website" element={<Home />} />
-          <Route path="Medicine-Ordering-Website/appointment" element={<AppointmentPage />} />
-          <Route path="Medicine-Ordering-Website/mymeds" element={<MyMedsPage />} />
-          {/* <Route path="/snooze" element={<Snooze />} /> */}
+          <Route path="/" element={<Home />} />
+          <Route path="/appointment" element={<AppointmentPage />} />
+          <Route path="/mymeds" element={<MyMedsPage />} />
           <Route
-            path="Medicine-Ordering-Website/auth"
+            path="/auth"
             element={<LoginForm onRegister={onRegister} onLogin={onLogin} />}
           />
         </Routes>
       </div>
-    </HashRouter>
   );
 }
 

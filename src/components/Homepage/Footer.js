@@ -48,16 +48,16 @@ const Footer = () => {
           <h3>QUICK LINKS</h3>
           <ul className="link-list">
             <li>
-              <a href="/Medicine-Ordering-Website">Top</a>
+              <a href="/">Top</a>
             </li>
             <li>
-              <a href="/Medicine-Ordering-Website/appointment">Appointments</a>
+              <a href="/appointment">Appointments</a>
             </li>
             <li>
-              <a href="/Medicine-Ordering-Website/mymeds">MyMeds</a>
+              <a href="/mymeds">MyMeds</a>
             </li>
             <li>
-              <a href="/Medicine-Ordering-Website/snooze">Snooze</a>
+              <a href="/snooze">Snooze</a>
             </li>
           </ul>
         </div>
