@@ -54,7 +54,7 @@ const Footer = () => {
               <a href="/Medicine-Ordering-Website/appointment">Appointments</a>
             </li>
             <li>
-              <a href="/Medicine-Ordering-Website/mymeds">MyMeds</a>
+              <a href="/mymeds">MyMeds</a>
             </li>
             <li>
               <a href="/Medicine-Ordering-Website/snooze">Snooze</a>
