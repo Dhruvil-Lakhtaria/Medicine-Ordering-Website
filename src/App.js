@@ -52,11 +52,11 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/appointment" element={<AppointmentPage />} />
-          <Route path="/mymeds" element={<MyMedsPage />} />
+          <Route path="/Medicine-Ordering-Website" element={<Home />} />
+          <Route path="/Medicine-Ordering-Website/appointment" element={<AppointmentPage />} />
+          <Route path="/Medicine-Ordering-Website/mymeds" element={<MyMedsPage />} />
           <Route
-            path="/auth"
+            path="/Medicine-Ordering-Website/auth"
             element={<LoginForm onRegister={onRegister} onLogin={onLogin} />}
           />
         </Routes>

@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="grad-bar"></div>
       <div className="navbar">
         <div className="header">
-          <a href="/" className="main-icon"><img alt="logo" src={logo} className="nav-logo"></img></a>
+          <a href="/Medicine-Ordering-Website" className="main-icon"><img alt="logo" src={logo} className="nav-logo"></img></a>
           <h1>MediSafe</h1>
         </div>
         <div className="menu-toggle" id="mobile-menu" onClick={handleClick}>
@@ -22,19 +22,19 @@ const Navbar = () => {
         </div>
         <ul className="nav">
           <li className="nav-item nav-h">
-            <a href="/">Home</a>
+            <a href="/Medicine-Ordering-Website">Home</a>
           </li>
           <li className="nav-item nav-a">
-            <a href="/appointment">Appointments</a>
+            <a href="/Medicine-Ordering-Website/appointment">Appointments</a>
           </li>
           <li className="nav-item nav-m">
-            <a href="/mymeds">MyMeds</a>
+            <a href="/Medicine-Ordering-Website/mymeds">MyMeds</a>
           </li>
           <li className="nav-item nav-s">
-            <a href="/snooze">Snooze</a>
+            <a href="/Medicine-Ordering-Website/snooze">Snooze</a>
           </li>
           <li className="nav-item nav-r">
-            <a href="/auth">Register</a>
+            <a href="/Medicine-Ordering-Website/auth">Register</a>
           </li>
         </ul>
       </div>
