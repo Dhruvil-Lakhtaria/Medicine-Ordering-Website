@@ -6,12 +6,9 @@ import "./css/MyMeds.css";
 import Home from "./components/Homepage/Home";
 import AppointmentPage from "./components/AppointmentPage/AppointmentPage";
 import MyMedsPage from "./components/MyMedsPage/MyMeds";
-import Snooze from "./components/Snooze/Snooze";
 import LoginForm from "./components/RegisterPage/LoginForm";
 import Navbar from "./components/Homepage/Navbar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { useState } from "react";
-import axios from "axios";
 
 function App() {
   // const [userId,setUserId] = useState("");
@@ -56,7 +53,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/appointment" element={<AppointmentPage />} />
           <Route path="/mymeds" element={<MyMedsPage />} />
-          <Route path="/snooze" element={<Snooze />} />
+          {/* <Route path="/snooze" element={<Snooze />} /> */}
           <Route
             path="/auth"
             element={<LoginForm onRegister={onRegister} onLogin={onLogin} />}
