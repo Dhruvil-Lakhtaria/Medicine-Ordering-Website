@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Medicine-Ordering-Website/static/css/main.2cca2f47.css",
-    "main.js": "/Medicine-Ordering-Website/static/js/main.e9d055fe.js",
+    "main.js": "/Medicine-Ordering-Website/static/js/main.0b403e80.js",
     "static/js/787.c4e7f8f9.chunk.js": "/Medicine-Ordering-Website/static/js/787.c4e7f8f9.chunk.js",
     "static/media/5556.jpg": "/Medicine-Ordering-Website/static/media/5556.4c9306ce0907c839831f.jpg",
     "static/media/SL-072620-33020-24.jpg": "/Medicine-Ordering-Website/static/media/SL-072620-33020-24.3aa1d9fe00b693ca319e.jpg",
@@ -12,11 +12,11 @@
     "static/media/cardiogram.png": "/Medicine-Ordering-Website/static/media/cardiogram.dbd31cd6330a6f822e21.png",
     "index.html": "/Medicine-Ordering-Website/index.html",
     "main.2cca2f47.css.map": "/Medicine-Ordering-Website/static/css/main.2cca2f47.css.map",
-    "main.e9d055fe.js.map": "/Medicine-Ordering-Website/static/js/main.e9d055fe.js.map",
+    "main.0b403e80.js.map": "/Medicine-Ordering-Website/static/js/main.0b403e80.js.map",
     "787.c4e7f8f9.chunk.js.map": "/Medicine-Ordering-Website/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2cca2f47.css",
-    "static/js/main.e9d055fe.js"
+    "static/js/main.0b403e80.js"
   ]
 }
