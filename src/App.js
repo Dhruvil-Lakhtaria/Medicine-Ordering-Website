@@ -8,7 +8,7 @@ import AppointmentPage from "./components/AppointmentPage/AppointmentPage";
 import MyMedsPage from "./components/MyMedsPage/MyMeds";
 import LoginForm from "./components/RegisterPage/LoginForm";
 import Navbar from "./components/Homepage/Navbar";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, HashRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   // const [userId,setUserId] = useState("");
@@ -46,7 +46,7 @@ function App() {
     //   });
   };
   return (
-    <Router>
+    <HashRouter>
       <div className="App">
         <Navbar />
         <Routes>
@@ -60,7 +60,7 @@ function App() {
           />
         </Routes>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
